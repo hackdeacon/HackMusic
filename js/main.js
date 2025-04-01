@@ -2,7 +2,7 @@ console.log("\n %c HeoMusic 开源静态音乐播放器 %c https://github.com/zh
 var local = false;
 
 if (typeof userId === 'undefined') {
-  var userId = "8152976493"; // 替换为实际的默认值
+  var userId = "13470388785"; // 替换为实际的默认值
 }
 if (typeof userServer === 'undefined') {
   var userServer = "netease"; // 替换为实际的默认值
@@ -308,7 +308,7 @@ document.addEventListener("keydown", function (event) {
 });
 
 // 监听窗口大小变化
-window.addEventListener('resize', function() {
+window.addEventListener('resize', function () {
   if (window.innerWidth > 768) {
     ap.list.show();
   } else {
